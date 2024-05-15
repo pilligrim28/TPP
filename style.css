@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+* {
+  font-family:Vollkorn, serif;
+  
+}
 .navbar {
   background-color: #fff;
   height: 100px;
+  margin: 20px;
+  border-radius: 16px;
+  padding: 0.5rem;
 }
 .navbar-brand {
   width: 83px;
@@ -22,6 +30,7 @@
   color: #666777;
   font-weight: 500;
   position: relative;
+  font-family: Vollkorn, serif;
 }
 .nav-link:hover,
 .nav-link.active {
@@ -59,4 +68,5 @@
   top: 0;
   right: 0;
   bottom: 0;
+  left: 0;
 }
