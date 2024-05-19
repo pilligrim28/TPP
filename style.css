@@ -86,3 +86,30 @@
 .tpp1{
   width: 30%;
 }
+
+.hero-section-first{
+  background: url(img/hero-sect-first.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+}
+.hero-section-first::before {
+  background-color: rgba(0, 0, 0, 0.6);
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.hero-section-first .container{
+  height: 150vh;
+  z-index: 1;
+  position: relative;
+  text-align: center;
+
+}
+.hero-section-first h2{
+  font-size: 1.2em;
+  background-color: rgba(0, 0, 0, 0.6);
+}
