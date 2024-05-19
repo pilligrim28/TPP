@@ -113,3 +113,12 @@
   font-size: 1.2em;
   background-color: rgba(0, 0, 0, 0.6);
 }
+@media (width <= 500px) {
+  .hero-section-first{
+    flex-direction: column;
+    margin-top: 300px;
+    background-size:auto;
+  }
+  
+  
+}
