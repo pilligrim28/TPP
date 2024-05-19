@@ -89,7 +89,7 @@
 
 .hero-section-first{
   background: url(img/hero-sect-first.jpg) no-repeat center;
-  background-size: cover;
+  background-size:cover;
   width: 100%;
 }
 .hero-section-first::before {
