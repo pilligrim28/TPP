@@ -105,8 +105,14 @@
 .hero-section-first h2{
   font-size: 1.2em;
   background-color: rgba(0, 0, 0, 0.6);
+ 
+  
 }
-@media (width  <= 767px;) {
+
+@media (width  <= 767px) {
+  .tpp1{
+    width: 50%;
+  }
   .hero-section-first{
     flex-direction: column;
     background-size:auto;
@@ -117,13 +123,15 @@
   }
   
 }  
-@media (width  <= 500px;) {
-  
+@media (width  <= 500px) {
+  .tpp1{
+    width: 70%;
+  }
     
   }
   .hero-section-first h2{
     margin-top:  800px;
   }
   
-}  
+
 
