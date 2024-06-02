@@ -59,6 +59,7 @@
   background: url(img/hero-sect-bg.jpg) no-repeat center;
   background-size: cover;
   width: 100%;
+  
 
 }
 .hero-section::before {
@@ -89,9 +90,9 @@
 }
 
 .hero-section-first{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/hero-sect-first.jpg');
-  background-size: cover;
-  background-position: center;
+  background-image:radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/hero-sect-first.jpg');
+  background-size:cover;
+  /*background-position: center;*/
   height: 1500px;
 }
 
@@ -110,19 +111,20 @@
   
 }
 
-@media (width  < 900px) {
+@media (max-width:768px) {
   .tpp1{
     width: 50%;
   }
   .hero-section-first{
     flex-direction: column;
     background-size:auto;
+   
 
   }
   .hero-section-first h2{
-    margin-top:  1500px;
+    margin-top: 0;
     text-align: center;
+    margin-top: 775px;
   }
 
 }
-
