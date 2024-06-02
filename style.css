@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
 * {
   font-family:Vollkorn, serif;
-  
+
 }
 .navbar {
   background-color: #fff;
@@ -79,7 +79,7 @@
 }
 .hero-section h1{
   font-size: 1.5em;
-  
+
 }
 .hero-section h2{
   font-size: 1.2em;
@@ -92,46 +92,37 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/hero-sect-first.jpg');
   background-size: cover;
   background-position: center;
+  height: 1500px;
 }
 
 
 .hero-section-first .container{
   height: 150vh;
   z-index: 1;
-  position: relative;
+  position:relative;
   text-align: center;
 
 }
 .hero-section-first h2{
   font-size: 1.2em;
   background-color: rgba(0, 0, 0, 0.6);
- 
+  margin-top: 0;
   
 }
 
-@media (width  <= 767px) {
+@media (width  < 900px) {
   .tpp1{
     width: 50%;
   }
   .hero-section-first{
     flex-direction: column;
     background-size:auto;
-    
-  }
-  .hero-section-first h2{
-    margin-top:  600px;
-  }
-  
-}  
-@media (width  <= 500px) {
-  .tpp1{
-    width: 70%;
-  }
-    
-  }
-  .hero-section-first h2{
-    margin-top:  800px;
-  }
-  
 
+  }
+  .hero-section-first h2{
+    margin-top:  1500px;
+    text-align: center;
+  }
+
+}
 
